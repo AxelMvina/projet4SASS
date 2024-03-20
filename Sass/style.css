@@ -176,6 +176,7 @@ header p {
 
 .card {
   position: relative;
+  margin: 20px 20px;
 }
 .card p {
   position: absolute;
@@ -306,6 +307,7 @@ footer {
   }
   .card {
     width: 100%;
+    margin: 20px 0px;
   }
   footer {
     display: flex;

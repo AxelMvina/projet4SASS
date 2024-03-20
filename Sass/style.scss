@@ -181,6 +181,7 @@ header {
 
 .card   {
     position: relative;
+    margin: 20px 20px;
     p   {
         position: absolute;
         left: 80%;
@@ -314,6 +315,7 @@ header img{
 }
 .card   {
     width: 100%;
+    margin: 20px 0px;
 }
 footer  {
     display: flex;
