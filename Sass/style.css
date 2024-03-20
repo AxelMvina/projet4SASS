@@ -297,13 +297,13 @@ footer {
     padding: 50px 20px 0px 0px;
   }
   #restaurant a {
-    width: 48%;
+    width: 47%;
   }
   .restaurant-card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 6%;
   }
   .card {
     width: 100%;
