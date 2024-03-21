@@ -270,29 +270,9 @@ header img{
     margin: 20px 0px;
 }
 footer  {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: relative;
+    @include mixfooterdesktop;
 }
-.footer {
-    display: flex;
-    flex-direction: row;
-    &__a    {
-        padding: 80px 5px 10px 5px;
-    }
-    &__padl{
-        padding-left: 50px;
-    }
-    &__padr{
-        padding-right: 210px;
-    }
-    &__title{
-        position: absolute;
-        left: 88%;
-        top: 56px;
-    }
-}
+
 
 }
 
