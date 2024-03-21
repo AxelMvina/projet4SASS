@@ -5,9 +5,16 @@
 @import "../bases/variables";
 @import "../bases/mixins";
 
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .main-container {
     width: 100%;
     box-sizing: border-box;
+    max-width: 1600px;
 }
 
 *, ::before, ::after {
