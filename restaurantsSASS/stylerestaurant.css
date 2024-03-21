@@ -69,9 +69,6 @@ header div a {
   font-size: 16px;
   padding-top: 40px;
 }
-.menu .fa-minus {
-  color: var(--tertiary-color);
-}
 .menu__ol {
   list-style: none;
   padding-top: 15px;
