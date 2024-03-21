@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/restaurantsSASS/stylerestaurant.css">
+    <link rel="stylesheet" href="/Sass/reataurants/stylerestaurant.css">
     <script src="https://kit.fontawesome.com/305f783e32.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -26,9 +26,16 @@
         <main>
             <img class="imgtop" src="/assets/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant La palette du goût">
             <section class="menu">
-                <h1>La palette du goût</h1>
-                <div>
+                <div class="menu__title">
+                    <h1>La palette du goût</h1>
+                    <div class="card__content__heart">
+                        <span class="card__content__heart__empty"><i class="fa-regular fa-heart"></i></span>
+                        <span class="card__content__heart__full"><i class="fa-solid fa-heart"></i></span>
+                    </div>
+                </div>
+                <div class="menu__content">
                     <h2>ENTRÉES</h2>
+                    <hr>
                     <ol class="menu__ol">
                         <li class="menu__ol__li">
                             <button class="menu__ol__li__button">
@@ -59,8 +66,9 @@
                     </ol>
                 </div>
 
-                <div>
+                <div class="menu__content">
                     <h2>PLATS</h2>
+                    <hr>
                     <ol class="menu__ol">
                         <li class="menu__ol__li">
                             <button class="menu__ol__li__button">
@@ -91,8 +99,9 @@
                     </ol>
                 </div>
 
-                <div>
+                <div class="menu__content">
                     <h2>DESSERTS</h2>
+                    <hr>
                     <ol class="menu__ol">
                         <li class="menu__ol__li">
                             <button class="menu__ol__li__button">

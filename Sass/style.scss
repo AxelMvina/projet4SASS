@@ -3,12 +3,9 @@
     font-family: 'Roboto' , sans-serif;
 }
 
-:root   {
-    --main-color: #9356DC;
-    --secondary-color: #FF79DA;
-    --tertiary-color: #99E2D0;
-    --my-gradient: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%)
-}
+@import "../Sass/bases/mixins";
+@import "../Sass/bases/variables";
+
 
 .main-container {
     width: 100%;
@@ -74,20 +71,25 @@ header {
     text-align: center;
     background-color: #F6F6F6;
     padding-bottom: 50px;
+    
     h1 {
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 0px;
         margin-top: 30px;
         padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
     h2 {
         font-size: 19px;
         font-weight: 300;
         padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     button {
-        background: var(--my-gradient);
+        background: $my-gradient;
         font-size: 16px;
         font-weight: 500;
         color: white;
@@ -141,7 +143,7 @@ header {
         padding-right: 15px;
     }
     li .store {
-        color: var(--main-color);
+        color: $main-color;
     }
 }
 .fonction__counter {
@@ -151,7 +153,7 @@ header {
     position: absolute;
     left: -2%;
     border-radius: 50%;
-    background-color: var(--main-color);
+    background-color: $main-color;
     color: white;
     padding: 2px 6px;
 }
@@ -186,7 +188,7 @@ header {
         position: absolute;
         left: 80%;
         top: 5%;
-        background: var(--tertiary-color);
+        background: $tertiary-color;
         padding: 5px 5px;
         font-size: 14px;
         font-weight: 500;
@@ -217,18 +219,7 @@ header {
             align-items: center;
             font-size: 22px;
             padding-bottom: 15px; 
-            &__full {
-                display: none;    
-            }
-            &:hover .card__content__heart__empty{
-                display: none;
-            }
-            &:hover .card__content__heart__full{
-                    display: flex;
-                    color: transparent;
-                    background: var(--my-gradient);
-                    background-clip: text;
-                }
+            @include hovheart;
             
         }
     }
@@ -236,37 +227,9 @@ header {
 
 // footer
 footer {
-    background-color: #353535;
-    padding-left: 25px;
-    color: white;
-    
+    @include mixfooter;
 }
 
-.footer {
-    padding-bottom: 15px;
-    &__title{
-        font-family: Shrikhand;
-        font-weight: 400;
-        font-size: 18px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    &__a{
-        padding-bottom: 10px;
-        list-style: none;
-        font-weight: 500;
-        font-size: 16px;
-    }
-    &__icone  {
-        padding-right: 10px;
-      }
-    &__400    {
-        font-weight: 400;
-    }
-}
-.fa-utensils {
-    padding-right: 16px;
-}
 
 
 @media (min-width: 1024px)  {

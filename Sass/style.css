@@ -2,13 +2,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-:root {
-  --main-color: #9356DC;
-  --secondary-color: #FF79DA;
-  --tertiary-color: #99E2D0;
-  --my-gradient: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%) ;
-}
-
 .main-container {
   width: 100%;
   box-sizing: border-box;
@@ -79,14 +72,18 @@ header p {
   margin-bottom: 0px;
   margin-top: 30px;
   padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 #search h2 {
   font-size: 19px;
   font-weight: 300;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #search button {
-  background: var(--my-gradient);
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -138,7 +135,7 @@ header p {
   padding-right: 15px;
 }
 #fonction li .store {
-  color: var(--main-color);
+  color: #9356DC;
 }
 
 .fonction__counter {
@@ -148,7 +145,7 @@ header p {
   position: absolute;
   left: -2%;
   border-radius: 50%;
-  background-color: var(--main-color);
+  background-color: #9356DC;
   color: white;
   padding: 2px 6px;
 }
@@ -182,7 +179,7 @@ header p {
   position: absolute;
   left: 80%;
   top: 5%;
-  background: var(--tertiary-color);
+  background: #99E2D0;
   padding: 5px 5px;
   font-size: 14px;
   font-weight: 500;
@@ -224,7 +221,7 @@ header p {
 .card__content__heart:hover .card__content__heart__full {
   display: flex;
   color: transparent;
-  background: var(--my-gradient);
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   -webkit-background-clip: text;
           background-clip: text;
 }
@@ -234,31 +231,29 @@ footer {
   padding-left: 25px;
   color: white;
 }
-
-.footer {
+footer .footer {
   padding-bottom: 15px;
 }
-.footer__title {
+footer .footer__title {
   font-family: Shrikhand;
   font-weight: 400;
   font-size: 18px;
   padding-top: 20px;
   padding-bottom: 15px;
 }
-.footer__a {
+footer .footer__a {
   padding-bottom: 10px;
   list-style: none;
   font-weight: 500;
   font-size: 16px;
 }
-.footer__icone {
+footer .footer__icone {
   padding-right: 10px;
 }
-.footer__400 {
+footer .footer__400 {
   font-weight: 400;
 }
-
-.fa-utensils {
+footer .fa-utensils {
   padding-right: 16px;
 }
 
