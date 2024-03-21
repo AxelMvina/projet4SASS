@@ -88,10 +88,10 @@ header p {
   font-weight: 500;
   color: white;
   border-radius: 25px;
-  padding: 13px 19px;
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   transition: transform 400ms;
+  padding: 13px 19px;
 }
 #search button:hover {
   transform: scale(1.03);

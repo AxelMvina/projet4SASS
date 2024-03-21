@@ -89,19 +89,8 @@ header {
         padding-right: 20px;
     }
     button {
-        background: $my-gradient;
-        font-size: 16px;
-        font-weight: 500;
-        color: white;
-        border-radius: 25px;
+        @include hovbutton;
         padding: 13px 19px;
-        border: none;
-        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-        transition: transform 400ms;
-        &:hover {
-            transform: scale(1.03);
-            background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);;
-        }
     }
 }
 
