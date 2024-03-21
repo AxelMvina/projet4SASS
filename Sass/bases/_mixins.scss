@@ -14,9 +14,9 @@
 }
 
 @mixin mixfooter {
-        background-color: #353535;
-        padding-left: 25px;
-        color: white;
+    background-color: #353535;
+    padding-left: 25px;
+    color: white;
     .footer {
         padding-bottom: 15px;
         &__title{
@@ -51,25 +51,25 @@
     position: relative;
 
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    &__a    {
-        padding: 60px 5px 10px 5px;
+    .footer {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        &__a    {
+            padding: 60px 5px 10px 5px;
+        }
+        &__padl{
+            padding-left: 50px;
+        }
+        &__padr{
+            padding-right: 210px;
+        }
+        &__title{
+            position: absolute;
+            left: 88%;
+            top: 37px;
+        }
     }
-    &__padl{
-        padding-left: 50px;
-    }
-    &__padr{
-        padding-right: 210px;
-    }
-    &__title{
-        position: absolute;
-        left: 88%;
-        top: 37px;
-    }
-}
 }
 
 @mixin hovheart {
