@@ -310,22 +310,23 @@ footer .fa-utensils {
     align-items: flex-end;
     position: relative;
   }
-  .footer {
+  footer .footer {
     display: flex;
     flex-direction: row;
+    font-size: 16px;
   }
-  .footer__a {
-    padding: 80px 5px 10px 5px;
+  footer .footer__a {
+    padding: 60px 5px 10px 5px;
   }
-  .footer__padl {
+  footer .footer__padl {
     padding-left: 50px;
   }
-  .footer__padr {
+  footer .footer__padr {
     padding-right: 210px;
   }
-  .footer__title {
+  footer .footer__title {
     position: absolute;
     left: 88%;
-    top: 56px;
+    top: 37px;
   }
 }/*# sourceMappingURL=style.css.map */
