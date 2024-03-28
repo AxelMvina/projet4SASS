@@ -138,7 +138,7 @@ header a {
   border-radius: 25px;
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  transition: transform 400ms;
+  transition: transform 400ms ease-in-out, background 350ms 150ms;
   padding: 15px 40px;
 }
 .order__button:hover {
@@ -152,6 +152,7 @@ footer {
   color: white;
 }
 footer .footer {
+  padding-left: 0px;
   padding-bottom: 15px;
 }
 footer .footer__title {
