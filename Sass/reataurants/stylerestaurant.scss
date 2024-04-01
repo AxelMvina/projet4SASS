@@ -30,7 +30,7 @@ header {
     }
     a {
         position: absolute;
-        left: 5%;
+        left: 3%;
         text-decoration: none;
         color: black;
     }
@@ -88,6 +88,22 @@ header {
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 0px;
+        .top_li {
+            opacity: 0;
+            animation: fadelist 1s 1s forwards;
+        }
+        .mid_li{
+            opacity: 0;
+            animation: fadelist 1s 1.5s forwards;
+        }
+        .bottom_li {
+            opacity: 0;
+            animation: fadelist 1s 2s forwards;
+        }
+        .bottomend_li {
+            opacity: 0;
+            animation: fadelist 1s 2.5s forwards;
+        }
         &__li {
         &__button {
             width: 95%;
@@ -117,11 +133,19 @@ header {
                     font-size: 15px;
                     font-weight: 700;
                 }
+        
             }
         }
     }
+    
     }
     
+}
+
+@keyframes fadelist {
+    to {
+        opacity: 1;
+    }
 }
 
 // button commander
@@ -157,3 +181,5 @@ footer {
         @include mixfooterdesktop;
     }
 }
+
+
