@@ -111,13 +111,19 @@ header {
             border-radius: 15px;
             border: 0px;
             display: flex;
-            padding: 15px;
-            flex-direction: column;
+            flex-direction: row;
             box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.10);
             margin-bottom: 12px;
+            &__content {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 15px;
             h3 {
                 font-size: 18px;
                 font-weight: 500;
+                text-align: left;
+            }
             }
             &__span{
                 display: flex;
@@ -131,15 +137,40 @@ header {
                 }
                 &__prize {
                     font-size: 15px;
-                    font-weight: 700;
+                    font-weight: 700;   
                 }
         
+            }
+            &__check {
+                display: none;
+                background-color: $tertiary-color;
+                padding-left: 2%;
+                align-items: center;
+                border-radius: 0px 15px 15px 0px;
+                color: white;
+                padding-right: 2%;
+            }
+            &:hover {
+                .menu__ol__li__button__check{
+                    display: flex;
+                    animation: checkanimation 250ms ease-in-out;
+                    transform-origin: right;     
+                }
             }
         }
     }
     
     }
     
+}
+
+@keyframes checkanimation {
+    from {
+        transform: scaleX(0%);
+    }
+    to {
+        transform: scaleX(100%)
+    }
 }
 
 @keyframes fadelist {
