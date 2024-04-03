@@ -136,11 +136,17 @@ header a {
   flex-direction: column;
   width: 100%;
   padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__ol__li__button__content h3 {
   font-size: 18px;
   font-weight: 500;
   text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__ol__li__button__span {
   display: flex;
@@ -152,6 +158,9 @@ header a {
 .menu__ol__li__button__span__subtitle {
   font-size: 15px;
   font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__ol__li__button__span__prize {
   font-size: 15px;

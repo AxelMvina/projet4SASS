@@ -80,7 +80,7 @@ header {
             opacity: 1;
         }
     }
-    
+
     h2 {
         font-weight: 300;
         font-size: 16px;
@@ -97,7 +97,7 @@ header {
         list-style: none;
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 0px;
+        padding-left: 0px;         
         .top_li {
             opacity: 0;
             animation: fadelist 1s 1s forwards;
@@ -129,10 +129,16 @@ header {
                 flex-direction: column;
                 width: 100%;
                 padding: 15px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             h3 {
                 font-size: 18px;
                 font-weight: 500;
                 text-align: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
             }
             &__span{
@@ -144,10 +150,13 @@ header {
                 &__subtitle {
                     font-size: 15px;
                     font-weight: 300;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
                 }
                 &__prize {
                     font-size: 15px;
-                    font-weight: 700;   
+                    font-weight: 700;
                 }
         
             }
