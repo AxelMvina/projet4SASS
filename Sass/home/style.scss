@@ -215,6 +215,15 @@ header {
     }
 }
 
+@keyframes heartanimate {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 // footer
 footer {
     @include mixfooter;

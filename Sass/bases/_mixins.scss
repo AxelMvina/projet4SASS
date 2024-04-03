@@ -75,7 +75,7 @@
 
 @mixin hovheart {
     &__full {
-        display: none;    
+        display: none;
     }
     &:hover .card__content__heart__empty{
         display: none;
@@ -85,6 +85,7 @@
             color: transparent;
             background: $my-gradient;
             background-clip: text;
+            animation: heartanimate 1s forwards;
         }
 }
 

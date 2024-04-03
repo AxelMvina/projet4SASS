@@ -71,6 +71,16 @@ header {
         font-size: 25px;
         @include hovheart;
     }
+
+    @keyframes heartanimate {
+        from {
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
     h2 {
         font-weight: 300;
         font-size: 16px;
@@ -159,9 +169,7 @@ header {
             }
         }
     }
-    
-    }
-    
+    } 
 }
 
 @keyframes checkanimation {

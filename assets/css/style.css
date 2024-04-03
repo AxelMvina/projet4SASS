@@ -225,8 +225,17 @@ header p {
   background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   -webkit-background-clip: text;
           background-clip: text;
+  animation: heartanimate 1s forwards;
 }
 
+@keyframes heartanimate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 footer {
   background-color: #353535;
   padding-left: 25px;
