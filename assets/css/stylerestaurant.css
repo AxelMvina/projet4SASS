@@ -167,7 +167,7 @@ header a {
 .menu__ol__li__button__span__prize {
   font-size: 15px;
   font-weight: 700;
-  margin-right: 3em;
+  margin-right: 2em;
 }
 .menu__ol__li__button__check {
   background-color: #99E2D0;
@@ -179,7 +179,7 @@ header a {
   color: white;
   padding-right: 2%;
   transition-duration: 0.5s;
-  margin-right: -4em;
+  margin-right: -5em;
 }
 .menu__ol__li__button:hover .menu__ol__li__button__check {
   margin-right: 0;
