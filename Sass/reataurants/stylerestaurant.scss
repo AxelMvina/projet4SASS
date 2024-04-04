@@ -124,6 +124,7 @@ header {
             flex-direction: row;
             box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.10);
             margin-bottom: 12px;
+            overflow: hidden;
             &__content {
                 display: flex;
                 flex-direction: column;
@@ -147,6 +148,7 @@ header {
                 flex-direction: row;
                 width: 100%;
                 padding-top: 5px;
+                padding-right: 3%;
                 &__subtitle {
                     font-size: 15px;
                     font-weight: 300;
@@ -157,21 +159,25 @@ header {
                 &__prize {
                     font-size: 15px;
                     font-weight: 700;
+                    margin-right: 3em;
                 }
         
             }
             &__check {
-                display: none;
                 background-color: $tertiary-color;
                 padding-left: 2%;
+                display: flex;
+                justify-content: center;
                 align-items: center;
                 border-radius: 0px 15px 15px 0px;
                 color: white;
                 padding-right: 2%;
+                transition-duration: 0.5s;
+                margin-right: -4em;
             }
             &:hover {
                 .menu__ol__li__button__check{
-                    display: flex;
+                    margin-right: 0;
                     animation: checkanimation 250ms ease-in-out;
                     transform-origin: right;     
                 }
