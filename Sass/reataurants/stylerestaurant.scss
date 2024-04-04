@@ -172,28 +172,18 @@ header {
                 border-radius: 0px 15px 15px 0px;
                 color: white;
                 padding-right: 2%;
-                transition-duration: 0.5s;
+                transition: 0.4s ease-in-out;
                 margin-right: -5em;
             }
             &:hover {
                 .menu__ol__li__button__check{
                     margin-right: 0;
-                    animation: checkanimation 250ms ease-in-out;
                     transform-origin: right;     
                 }
             }
         }
     }
     } 
-}
-
-@keyframes checkanimation {
-    from {
-        transform: scaleX(0%);
-    }
-    to {
-        transform: scaleX(100%)
-    }
 }
 
 @keyframes fadelist {
