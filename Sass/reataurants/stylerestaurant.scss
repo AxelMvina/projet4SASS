@@ -100,19 +100,19 @@ header {
         padding-left: 0px;         
         .top_li {
             opacity: 0;
-            animation: fadelist 1s 1s forwards;
+            animation: fadelist 800ms 0.5s forwards;
         }
         .mid_li{
             opacity: 0;
-            animation: fadelist 1s 1.5s forwards;
+            animation: fadelist 800ms 1s forwards;
         }
         .bottom_li {
             opacity: 0;
-            animation: fadelist 1s 2s forwards;
+            animation: fadelist 800ms 1.5s forwards;
         }
         .bottomend_li {
             opacity: 0;
-            animation: fadelist 1s 2.5s forwards;
+            animation: fadelist 800ms 2s forwards;
         }
         &__li {
         &__button {

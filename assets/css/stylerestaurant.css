@@ -107,19 +107,19 @@ header a {
 }
 .menu__ol .top_li {
   opacity: 0;
-  animation: fadelist 1s 1s forwards;
+  animation: fadelist 800ms 0.5s forwards;
 }
 .menu__ol .mid_li {
   opacity: 0;
-  animation: fadelist 1s 1.5s forwards;
+  animation: fadelist 800ms 1s forwards;
 }
 .menu__ol .bottom_li {
   opacity: 0;
-  animation: fadelist 1s 2s forwards;
+  animation: fadelist 800ms 1.5s forwards;
 }
 .menu__ol .bottomend_li {
   opacity: 0;
-  animation: fadelist 1s 2.5s forwards;
+  animation: fadelist 800ms 2s forwards;
 }
 .menu__ol__li__button {
   width: 95%;
