@@ -225,7 +225,7 @@ header p {
   background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
   -webkit-background-clip: text;
           background-clip: text;
-  animation: heartanimate 1s forwards;
+  animation: heartanimate 0.9s forwards;
 }
 
 @keyframes heartanimate {
